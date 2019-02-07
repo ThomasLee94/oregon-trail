@@ -112,9 +112,14 @@ OregonH.Event.eventTypes = [
   }
 ];
 
+function randomInt(n) {
+  const {floor, random} = Math
+  return floor(random() * n)
+}
+
 OregonH.Event.generateEvent = function generateEvent() {
   // pick random one
-  const eventIndex = Math.floor(Math.random() * this.eventTypes.length);
+  const eventIndex = randomInt(this.eventTypes.length); 
   const eventData = this.eventTypes[eventIndex];
 
   // events that consist in updating a stat

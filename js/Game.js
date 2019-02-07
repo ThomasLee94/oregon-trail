@@ -145,3 +145,13 @@ OregonH.Game.resumeJourney = function resumeJourney() {
 
 // init game
 OregonH.Game.init();
+
+
+// class Game {
+//   constructor() {
+//     this.caravan = new Caravan()
+//     this.ui = new UI()
+//   }
+// }
+
+// new Game()
