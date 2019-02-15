@@ -4,19 +4,6 @@ class Caravan {
   constructor({
     day, distance, crew, food, oxen, money, firepower,
   }) {
-    this.WEIGHT_PER_OX = 20;
-    this.WEIGHT_PER_PERSON = 2;
-    this.WEIGHT_OF_FOOD = 0.6;
-    this.WEIGHT_OF_FIREPOWER = 5;
-    this.GAME_SPEED = 800;
-    this.DAY_PER_STEP = 0.2;
-    this.FOOD_PER_PERSON = 0.02;
-    this.FULL_SPEED = 5;
-    this.SLOW_SPEED = 3;
-    this.FINAL_DISTANCE = 1000;
-    this.EVENT_PROBABILITY = 0.15;
-    this.ENEMY_FIREPOWER_AVG = 5;
-    this.ENEMY_GOLD_AVG = 50;
     this.day = day;
     this.distance = distance;
     this.crew = crew;

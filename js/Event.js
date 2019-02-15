@@ -1,5 +1,8 @@
 // Event.js
 // eslint-disable-next-line no-var
+
+import { randomInt } from 'Helper'
+
 class Event {
   constructor({
     type, notification, stat, value, text,
@@ -189,7 +192,3 @@ OregonH.Event.eventTypes = [
   }
 ];
 
-function randomInt(n) {
-  const {floor, random} = Math
-  return floor(random() * n)
-}
