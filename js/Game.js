@@ -22,6 +22,8 @@ class Game {
     this.ENEMY_FIREPOWER_AVG = enemyFpAvg;
     this.ENEMY_GOLD_AVG = enemyGoldAvg;
     this.init();
+    this.caravan = new Caravan();
+    this.ui = new UI(); 
   }
 
   // initiate the game
@@ -145,17 +147,7 @@ class Game {
   };
 }
 
+// INIT GAME
+const game = new Game()
 
 
-// init game
-OregonH.Game.init();
-
-
-// class Game {
-//   constructor() {
-//     this.caravan = new Caravan()
-//     this.ui = new UI()
-//   }
-// }
-
-// new Game()
