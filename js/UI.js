@@ -152,7 +152,7 @@ class UI  {
     this.caravan[product.it
     this.notify(`Bought ${product.qty} x ${product.item}`, 'positive');
     // update weight
-    this.caravan.updateWeight();
+    this.caravan.updateWeight();ss
     // update visuals
     this.refreshStats();
     return true;
